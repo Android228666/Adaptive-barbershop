@@ -133,10 +133,10 @@
             к нам.
           </p>
           <p class="second-bbsh-text">
-            Мы команда, которая никогда не останавливается на достигнутом <br />
-            и жаждет перемен. И когда ты попадешь в руки нашего мастера,<br />
-            то уже никогда не сможешь быть прежним. Мы команда, которая<br />
-            всегда с клиентами "на одной волне". Поэтому, мы всегда готовы<br />
+            Мы команда, которая никогда не останавливается на достигнутом 
+            и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+            то уже никогда не сможешь быть прежним. Мы команда, которая
+            всегда с клиентами "на одной волне". Поэтому, мы всегда готовы
             усовершенствовать каждого, кто к нам приходит!
           </p>
           <button class="bbsh-button">
@@ -148,7 +148,7 @@
 
     <!-- How much this cost? -->
     <section class="price-section">
-      <div class="container">
+      <div class="price">
         <ul class="title-price-list">
           <li class="title-price-item"><div class="title-price-line"></div></li>
           <li class="title-price-item">
@@ -216,7 +216,23 @@
     <section class="visit-section">
       <div class="container visit-container">
         <div class="first-visit-container">
-          <ul class="visit-list">
+
+            <div class="first-visit-container">
+              <ul class="visit-title-list">
+                <li class="visit-title-item"><div class="visit-line"></div></li>
+                <li class="visit-title-item"><p class="visit-first-list-text">старая традиционная школа</p></li>
+              </ul>
+              <h2 class="visit-title">
+                Почему приходят<br />
+                именно к нам?
+              </h2>
+              <p class="visit-title-text">
+                О нас говорят только хорошее. Но лучше 1 раз
+                увидеть и прочувствовать, чем 10 раз прочитать.
+              </p>
+            </div>
+
+            <ul class="visit-list">
             <div class="first-visit-list-container">
               <li class="visit-item">
                 <p class="visit-number">600<span class="visit-plus">+</span></p>
@@ -254,36 +270,22 @@
             </div>
           </ul>
         </div>
-        <div class="second-visit-container">
-          <ul class="visit-title-list">
-            <li class="visit-title-item"><div class="visit-line"></div></li>
-            <li class="visit-title-item"><p>старая традиционная школа</p></li>
-          </ul>
-          <h2 class="visit-title">
-            Почему приходят<br />
-            именно к нам?
-          </h2>
-          <p class="visit-title-text">
-            О нас говорят только хорошее. Но лучше 1 раз<br />
-            увидеть и прочувствовать, чем 10 раз прочитать.
-          </p>
-        </div>
       </div>
     </section>
 
     <!-- Our masters -->
     <section class="masters">
-      <div class="container">
+      <div class="container masters-container">
         <ul class="masters-title-list">
           <li class="masters-title-item"><div class="masters-line"></div></li>
           <li class="masters-title-item">
-            <p>для настоящих ценителей атмосферы</p>
+            <p class="masters-title-text">для настоящих ценителей атмосферы</p>
           </li>
         </ul>
         <h2 class="masters-title">Наши мастера</h2>
         <ul class="masters-list">
           <li class="masters-item">
-            <img src="photo/first-worker.jpg" alt="photo" />
+            <img src="/photo/mobile/first-master.jpg" alt="photo" />
             <p class="masters-name">John Smith</p>
             <p class="type-of-work">Extreme Barber</p>
             <ul class="masters-soc-list">
@@ -402,7 +404,7 @@
             </ul>
           </li>
           <li class="masters-item">
-            <img src="photo/second-worker.jpg" alt="photo" />
+            <img src="photo/mobile/second-master.jpg" alt="photo" />
             <p class="masters-name">Michele Doe</p>
             <p class="type-of-work">Extreme Barber</p>
             <ul class="masters-soc-list">
@@ -521,7 +523,7 @@
             </ul>
           </li>
           <li class="masters-item">
-            <img src="photo/third-worker.jpg" alt="photo" />
+            <img src="/photo/mobile/third-master.jpg" alt="photo" />
             <p class="masters-name">Alan Black</p>
             <p class="type-of-work">Extreme Barber</p>
             <ul class="masters-soc-list">
@@ -645,18 +647,18 @@
 
     <!-- Barba in latin -->
     <section class="latin-section">
-      <div class="container">
+      <div class="container latin-container">
         <ul class="latin-list">
           <li class="latin-item"><div class="latin-line"></div></li>
           <li class="latin-item">
-            <p>На латинском языке “барба” означает “борода”</p>
+            <p class="latin-text">На латинском языке “барба” означает “борода”</p>
           </li>
         </ul>
         <div class="latin-photo-container">
-          <img class="latin-image" src="photo/latin-photo1.jpg" alt="photo" />
-          <img class="latin-image" src="photo/latin-photo2.jpg" alt="photo" />
-          <img class="latin-image" src="photo/latin-photo3.jpg" alt="photo" />
-          <img class="latin-image" src="photo/latin-photo4.jpg" alt="photo" />
+          <img class="latin-image" src="photo/mobile/latin-photo-1.jpg" alt="photo" />
+          <img class="latin-image" src="photo/mobile/latin-photo-2.jpg" alt="photo" />
+          <img class="latin-image" src="photo/mobile/latin-photo-3.jpg" alt="photo" />
+          <img class="latin-image" src="photo/mobile/latin-photo-4.jpg" alt="photo" />
         </div>
       </div>
     </section>
@@ -669,7 +671,7 @@
             <form action="" class="first-form">
               <div class="form-container">
                 <label class="name-label">
-                  <span class="name" id="name">Имя*</span>
+                  <p class="name" id="name">Имя*</p>
                   <input class="name-input" type="text" id="name" placeholder=" ">
                 </label>
                 <label class="phone-label">
@@ -678,7 +680,7 @@
                 </label>
               </div>
               <label for="" class="textarea-label">
-                <span class="message">Сообщение</span>
+                <p class="message">Сообщение</p>
                 <textarea name="message"  class="message-textarea" placeholder=" "></textarea>
               </label>
             </form>
@@ -688,6 +690,7 @@
           </div>
 
           <div class="second-footer-container">
+            <div class="contacts-container">
             <h2 class="right-footer-title">Контакты</h2>
             <ul class="footer-list">
               <li class="footer-item">
@@ -696,7 +699,7 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 14C13.6569 14 15 12.6569 15 11C15 9.34315 13.6569 8 12 8C10.3431 8 9 9.34315 9 11C9 12.6569 10.3431 14 12 14Z" stroke="#9DA4BD" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                   
-                <p class="footer-list-text">ул. Васильковая, 7А<br/> Киев, 08132</p>
+                <p class="footer-list-text">ул. Васильковая, 7А Киев, 08132</p>
               </li>
               <li class="footer-item">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -720,19 +723,25 @@
                   </div>
                 <p class="time">Ежедневно с 9:00 до 22:00</p>
                 </div>
-             
+             </div>
           </div>
         </div>
 
-        <ul class="last-list container">
-          <li ><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5.928 4.284C6.696 4.32 6.894 4.974 6.906 5.28H7.98C7.932 4.092 7.086 3.366 5.91 3.366C4.584 3.366 3.6 4.2 3.6 6.084C3.6 7.248 4.158 8.628 5.904 8.628C7.236 8.628 7.95 7.638 7.968 6.858H6.894C6.876 7.212 6.624 7.686 5.916 7.722C5.13 7.698 4.8 7.086 4.8 6.084C4.8 4.35 5.568 4.296 5.928 4.284ZM6 0C2.688 0 0 2.688 0 6C0 9.312 2.688 12 6 12C9.312 12 12 9.312 12 6C12 2.688 9.312 0 6 0ZM6 10.8C3.354 10.8 1.2 8.646 1.2 6C1.2 3.354 3.354 1.2 6 1.2C8.646 1.2 10.8 3.354 10.8 6C10.8 8.646 8.646 10.8 6 10.8Z" fill="#9DA4BD"/>
-            </svg></li>
-          <li><p class="last-text">Copyright 2020</p></li>       
-          <li class="last-item"><div class="last-line"></div></li>
-          <li class="last-item"><p class="social-networks">Instagram</p></li>
-          <li class="last-item"><p class="social-networks">Youtube</p></li>
-        </ul> 
+        <div class="last-container">
+          <div class="last-list container">
+            <div class="footer-soc">
+             <div class="last-line soc"></div>
+             <p class="social-networks soc">Instagram</p>
+             <p class="social-networks soc">Youtube</p>
+            </div>
+             <div class="footer-copyright">
+               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M5.928 4.284C6.696 4.32 6.894 4.974 6.906 5.28H7.98C7.932 4.092 7.086 3.366 5.91 3.366C4.584 3.366 3.6 4.2 3.6 6.084C3.6 7.248 4.158 8.628 5.904 8.628C7.236 8.628 7.95 7.638 7.968 6.858H6.894C6.876 7.212 6.624 7.686 5.916 7.722C5.13 7.698 4.8 7.086 4.8 6.084C4.8 4.35 5.568 4.296 5.928 4.284ZM6 0C2.688 0 0 2.688 0 6C0 9.312 2.688 12 6 12C9.312 12 12 9.312 12 6C12 2.688 9.312 0 6 0ZM6 10.8C3.354 10.8 1.2 8.646 1.2 6C1.2 3.354 3.354 1.2 6 1.2C8.646 1.2 10.8 3.354 10.8 6C10.8 8.646 8.646 10.8 6 10.8Z" fill="#9DA4BD"/>
+                 </svg>
+               <p class="last-text">Copyright 2020</p> 
+             </div>
+            </div> 
+        </div>
       
     </footer>
   </body>

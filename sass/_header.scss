@@ -1,4 +1,4 @@
-@media (max-width:480px){
+@media (max-width:768px){
 
 
     .first-header-list,
@@ -10,12 +10,18 @@
     header{
         background: url(/photo/mobile/header-img3.png);
         height: 580px;
+        // max-width: 480px;
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
    .header{
        margin-left: auto;
        margin-right: auto;
-       width: 418px;
+       width: 448px;
+       padding-left: 15px;
+       padding-right: 15px;
    }
 
    .logo{

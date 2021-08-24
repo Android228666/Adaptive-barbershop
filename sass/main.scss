@@ -7,6 +7,12 @@
 @import './barba-in-latin';
 @import './footer';
 
+
+// Mobile
+// margin-left: auto;
+// margin-right: auto;
+// width: 418px;
+
 body{
     font-family: 'Open Sans';
 }
@@ -20,6 +26,7 @@ h1,h2,h3,h4{
 p{
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'Open Sans';
 }
 
 ul{
